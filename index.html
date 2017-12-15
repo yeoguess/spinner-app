@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Spinning Wheel</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+    </div>
+        <h1 class="app-title">Foodie's Fortune Wheel</h1>
+    <div class="container wheels-area">
+        <div class="row">
+            <div class="col-md-4">
+                <center>
+                    <div class="wrapper">
+                        <div class="wheel" id="a">
+                            <div class="inner-wheel" id="first">
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                            </div><!-- End inner-wheel -->
+                           
+                            <div class="spin" id="spin1" data-name='a' data-wheel = "first">
+                                <div class="inner-spin"></div>
+                            </div><!-- End spin -->
+                            
+                        </div><!-- End wheel -->
+                        
+                        <button class="btn btn-success wheel-click">SPIN</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                          LAUNCH
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">What am I famous for?</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                fsafasfasfd
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">NEXT WHEEL</button>
+                              </div><!-- End modal-footer -->
+                            </div><!-- End modal-content -->
+                          </div><!-- End modal-dialog -->
+                        </div><!-- End modal fade -->
+                    </div><!-- End wrapper -->
+                </center>
+            </div><!-- End col-md-4 -->
+            <div class="col-md-4">
+               <center>
+                    <div class="wrapper" id="b">
+                        <div class="wheel">
+                            <div class="inner-wheel" id="second">
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                            </div><!-- End inner-wheel -->
+                           
+                            <div class="spin" id="spin2" data-name='b' data-wheel = "second">
+                                <div class="inner-spin"></div>
+                            </div><!-- End spin -->
+                            
+                        </div><!-- End wheel -->
+                        
+                        <button class="btn wheel-click">SPIN</button>
+
+                    </div><!-- End wrapper -->
+                </center>
+            </div><!-- End col-md-4 -->
+            <div class="col-md-4">
+                <center>
+                    <div class="wrapper" id="c">
+                        <div class="wheel">
+                            <div class="inner-wheel" id="third">
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                                <div class="sec"><span class=""></span></div>
+                            </div><!-- End inner-wheel -->
+                           
+                            <div class="spin" id="spin3" data-name='c' data-wheel = "third">
+                                <div class="inner-spin"></div>
+                            </div><!-- End spin -->
+                            
+                        </div><!-- End wheel -->
+                        
+                        <button class="btn wheel-click">SPIN</button>
+
+                    </div><!-- End wrapper -->
+                </center>
+            </div><!-- End col-md-4 -->
+        </div><!-- End row -->
+    </div><!-- End container -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
